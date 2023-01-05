@@ -1,3 +1,4 @@
 
+#ALGORITMO DE DESORDEN:
 
 
