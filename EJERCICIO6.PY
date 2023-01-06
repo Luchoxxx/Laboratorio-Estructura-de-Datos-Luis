@@ -8,7 +8,7 @@ def robot_camina(npasos):
     if npasos%2 == 0 :
         
         print(f"Camino { npasos /2}")
-
+        
     else:
        if npasos%2 != 0 :
         print(f"camino { npasos}")
