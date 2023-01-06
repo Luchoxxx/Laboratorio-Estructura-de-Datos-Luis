@@ -4,6 +4,7 @@ import time
 #MANERA NORMAL
 def factorial(n):
     inicio = time.time()
+
     resultado = 1
     contador = 0
 
@@ -11,8 +12,10 @@ def factorial(n):
 
         contador = contador + 1 
         resultado = resultado * contador
-    final  = time.time()
-    return print(f'El tiempo de ejecucion fue {final- inicio} ===> resultado: {resultado}')
+    final = time.time()
+    
+    return resultado , final - inicio  
+   # return print(f'El tiempo de ejecucion fue {final- inicio} ===> resultado: {resultado}')
 
 #variable = factorial(4)
 
@@ -22,25 +25,27 @@ def factorial(n):
 
 #MANERA RECURSIVA 
 
+inicio = time.time()
+
 def factorial_recursivo(numero):
-    inicio = time.time()
-
-    if numero == 1:
-        return numero
-
-    final = time.time()
-
-    tiempo = final - inicio
-    return numero*factorial_recursivo(numero - 1) , tiempo
     
+
+    if numero == 1 :    
+        return  1
+
+ #   final = time.time()
+
+    return numero*factorial_recursivo(numero - 1)
+final = time.time()
+
 
 ### PRUEBA
  
-varible2 = factorial(10)
-varible1 = factorial_recursivo(10)
+print(factorial(10))
+print(factorial_recursivo(10))
+print(final - inicio)
 
-print(varible1)
-print(varible2)
+
 
 
 
