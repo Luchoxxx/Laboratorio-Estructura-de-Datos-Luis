@@ -44,6 +44,25 @@ def fibonaci_N(numero):
     
 ####Probando 
 
-print(fibonaci_N(10))
+if __name__ == '__main__':
 
-print(fibonaci_N(5))
+    print("===TIEMPO DE EJECUCION===")
+
+     
+    inicio = time.time()
+    print(fibonaci_recursivo(10))
+    final = time.time()
+    print("TIEMPO DE EJECUCION RESURSIVA")
+    print(final - inicio)
+
+    inicio1 = time.time()
+    print(fibonaci_N(50))
+    print("TIEMPO DE EJECUCION NORMAL")
+    final1 = time.time()
+    print(final1 - inicio1)
+
+
+
+
+
+#print(fibonaci_N(5))
