@@ -1,5 +1,5 @@
-####COMENTARIO 2 
+from EJERCICIO2 import
 
-print("COMENTARIO NUMERO 2")
+
 
 
