@@ -12,8 +12,6 @@ def fibonaci_recursivo(numero):
     else:
         return fibonaci_recursivo(numero-1) + fibonaci_recursivo(numero-2)
 
-print(fibonaci_recursivo(10))
-
 # PARA UN AMANERA NORMAL
 
 def fibonaci_N(numero):
@@ -48,21 +46,20 @@ if __name__ == '__main__':
 
     print("===TIEMPO DE EJECUCION===")
 
-     
     inicio = time.time()
+    print("===RESULTADO===")
+
     print(fibonaci_recursivo(10))
     final = time.time()
-    print("TIEMPO DE EJECUCION RESURSIVA")
+    print("=======>TIEMPO DE EJECUCION RESURSIVA")
     print(final - inicio)
 
     inicio1 = time.time()
-    print(fibonaci_N(50))
-    print("TIEMPO DE EJECUCION NORMAL")
+
+    print("===RESULTADO===")
+
+    print(fibonaci_N(12))
+    print("======>TIEMPO DE EJECUCION NORMAL")
     final1 = time.time()
     print(final1 - inicio1)
 
-
-
-
-
-#print(fibonaci_N(5))
