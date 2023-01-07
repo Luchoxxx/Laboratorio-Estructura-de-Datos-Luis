@@ -1,6 +1,5 @@
 from random import randrange
 
-
 #ALGORITMO DE DESORDEN:
 #Primeros pasos
 
