@@ -11,11 +11,15 @@ def sumatoria(numero_n,numero_p):
         return numero_p
     
     else:
-        return (numero_p*numero_n) + sumatoria(numero_n +1, numero_p)
+        return numero_p*numero_n + sumatoria(numero_n - 1, numero_p)
 
 suma_prueba = sumatoria(numero_n,numero_p)
 
-print(suma_prueba)
+print(f'La suma rescursiva de {numero_n} y {numero_p}  es {suma_prueba}')
+
+
+
+#####PREGUNTA 2 ####
 
 
 
