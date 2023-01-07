@@ -7,7 +7,8 @@ print(desordena(lista1))
 print(desordena(lista1))
 print(desordena(lista1))
 print(desordena(lista1))
-print(desordena(lista1))
+print(desordena(lista1)) 
+
 
 #Como podemos explicar este algoritmo 
 
