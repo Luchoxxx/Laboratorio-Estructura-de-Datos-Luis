@@ -1,7 +1,7 @@
 import time
 #NUMEROS DE FOBONACI
 
-#De manera recursiva :
+#De manera recursiva : 
 
 def fibonaci_recursivo(numero):
     if numero == 0:
