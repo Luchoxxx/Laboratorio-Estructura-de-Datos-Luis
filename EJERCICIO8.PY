@@ -1,6 +1,6 @@
 
 #PROGRAMA RECURSIVO DE LA POTENCIA 
-
+####
 def potencia_numero(numero , potencia):
 
     if potencia ==  0 :
