@@ -31,6 +31,7 @@ def decimal_hexadecimal(numero):
 
 ##PRUEBA #### 
 prueba1 = decimal_hexadecimal(8642)
+print(prueba1)
 
 
 ####PREGUNTA 3 #### 
