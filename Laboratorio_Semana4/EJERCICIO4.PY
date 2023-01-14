@@ -1,8 +1,10 @@
 
 def leer_vector(vector):
     for i in range(len(vector)):
+
         if sum(vector[:i] + vector[i+1:]) == vector[i]:
             return True
+            
     return False
 
 vector = [1, 2, 3, 4, 10]
