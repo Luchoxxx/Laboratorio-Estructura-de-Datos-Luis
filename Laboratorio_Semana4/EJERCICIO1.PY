@@ -7,6 +7,7 @@ def acumulador(contador):
     lista_nombres = []
     
     while len(lista_nombres) < contador :
+        
         nombre = input("Ingresa tu nombre: ")
 
         lista_nombres.append(nombre)
