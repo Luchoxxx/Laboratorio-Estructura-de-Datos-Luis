@@ -1,0 +1,6 @@
+###EJERCICIO 8 DE LA DIAGONAL ### 
+
+
+
+
+
