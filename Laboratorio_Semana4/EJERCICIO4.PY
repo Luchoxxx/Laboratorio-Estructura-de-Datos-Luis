@@ -7,7 +7,7 @@ def leer_vector(vector):
 
 vector = [1, 2, 3, 4, 10]
 
-if leer_vector(arr):
+if leer_vector(vector):
     print("Hay un número que es igual a la suma de los demás elementos del vector.")
 else:
     print("No hay un número que sea igual a la suma de los demás elementos del vector.")
