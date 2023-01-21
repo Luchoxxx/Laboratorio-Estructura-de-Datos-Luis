@@ -14,3 +14,7 @@ def DIAGONAL_principal(matriz):
 
 
 
+
+
+
+
