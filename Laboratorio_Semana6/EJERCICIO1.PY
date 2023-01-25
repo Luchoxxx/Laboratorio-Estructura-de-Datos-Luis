@@ -19,7 +19,7 @@ print(diferencia)
 diferencia_simetrica = mi_conjunto.symmetric_difference(mi_conjunto1)
 print(diferencia_simetrica)
 
-
+print()
 
 
 
