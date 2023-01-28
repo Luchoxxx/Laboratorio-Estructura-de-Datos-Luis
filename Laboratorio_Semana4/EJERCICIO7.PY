@@ -15,3 +15,6 @@ def multiplicacion_matrices(matrizA,matrizB):
 
     resultado = [[0 for j in range(len(matrizB[0]))]]
 
+
+
+
