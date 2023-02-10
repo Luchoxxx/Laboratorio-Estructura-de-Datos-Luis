@@ -7,7 +7,7 @@ def desordena(cadena):
     elemento = len(cadena)  # cada elemento de la cadena 
 
     while elemento > 1 :
-        elemento =  elemento - 1
+        elemento =elemento - 1
 
         objeto = randrange(elemento)  # Generando numeros aleatorios de 0 a numeros de elementos
         
