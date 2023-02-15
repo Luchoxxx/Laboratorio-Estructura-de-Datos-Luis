@@ -1,26 +1,22 @@
 print("Hola mundo listas simples")
 
-
 ##Creamos una clase nodo
 
 class Nodo:
-    def __int__(self, nombre, cedula, sig):
+    def __init__(self, nombre=None, cedula=None, sig=None):
         self.nombre = nombre
         self.cedula = cedula
         self.sig = sig
 
     def __str__(self):
-        return "%s %s" % (self.nombre, self.cedula)
-
+        return "%s %s" %(self.nombre, self.cedula)
 
 class listasimples:
 
-    def __int__(self):
+    def __init__(self):
         self.cabeza = None
         self.cola = None
-
     # CREAMOS UNA FUNCION AGREGAR
-
     def agrega(self, elemento):
 
         if self.cabeza == None:
@@ -34,12 +30,12 @@ class listasimples:
 
 if __name__ == "__main__":
     oLisSimpl = listasimples()
-    while True:
+    while (True):
         print("----Menu-----\n "
               + "1. Agregar")
-        numero = int(input("Ingrese la opcion: "))
+        numero = input("Ingrese la opcion: ")
 
-        if numero == 1:
+        if numero =="1":
             nombre = input("Ingrese el nombre: ")
             Cedula = input("Ingrese la cedula: ")
             oNodo = Nodo(nombre, Cedula)
