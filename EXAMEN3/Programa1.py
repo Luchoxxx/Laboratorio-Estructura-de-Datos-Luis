@@ -68,7 +68,8 @@ if __name__ == "__main__":
     while bandera:
         print("PROGRAMA DE COMPRA\n" +
               "1.Agrega producto\n"+
-              "2.Elemina mi compra Inicio")
+              "2.Elemina mi compra Inicio\n"+
+              "3 .Salir")
 
         numero = int(input("Ingrese una opcion: "))
         if numero == 1:
@@ -83,6 +84,7 @@ if __name__ == "__main__":
             else:
                 print("Error en el proceso")
 
-
+        if numero == 3:
+            break
 
 
